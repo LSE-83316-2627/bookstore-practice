@@ -8,9 +8,9 @@ class Book(object):
         self.price = price
 
     # Task 1: add a method get_title() that returns the title
-    def get_title(self):
+    def get_title1(self):
         """Returns the title of the book."""
-        return self.title
+        return self.title1
 
     # Task 2: add a method get_price() that returns the price
     def get_price(self):
