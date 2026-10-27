@@ -3,14 +3,14 @@ class Book(object):
 
     def __init__(self, title, author, price):
         """Creates a book with a title, an author, and a price."""
-        self.title = title
+        self.title2 = title
         self.author = author
         self.price = price
 
     # Task 1: add a method get_title() that returns the title
     def get_title(self):
         """Returns the title of the book."""
-        return self.title
+        return self.title2
 
     # Task 2: add a method get_price() that returns the price
     def get_price(self):
